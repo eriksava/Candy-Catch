@@ -1,10 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour {
 
-
+    public Text scoreText;
 
     public static GameManager instance1;
 
@@ -29,6 +30,7 @@ public class GameManager : MonoBehaviour {
     public void IncrementScore(){
 
         score++;
+        scoreText.text = score.ToString();
         Debug.Log(score);
     }
 }
