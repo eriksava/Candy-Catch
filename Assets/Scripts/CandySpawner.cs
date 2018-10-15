@@ -13,9 +13,18 @@ public class CandySpawner : MonoBehaviour {
 
     public GameObject[] Candies;
 
+    public static CandySpawner instance;
 
-	// Use this for initialization
-	void Start () {
+    private void Awake()
+    {
+        if(instance == null){
+
+            instance = this;
+        }
+    }
+
+    // Use this for initialization
+    void Start () {
 
         StartSpawningCandies();
 	}

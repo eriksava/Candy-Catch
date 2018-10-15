@@ -64,6 +64,8 @@
     <Compile Include="Assets\Scripts\CandyScript.cs" />
     <Compile Include="Assets\Scripts\CandySpawner.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\GameOverManager.cs" />
+    <Compile Include="Assets\Scripts\MainMenuController.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>/Users/eriksava/Desktop/UNITY/Candy Catch/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>

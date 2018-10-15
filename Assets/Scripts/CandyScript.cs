@@ -25,7 +25,9 @@ public class CandyScript : MonoBehaviour {
         else if(col.gameObject.tag == "Boundary"){
 
             //Tenemos que decrement las vidas
+            GameManager.instance1.DecreaseLife();
             Destroy(gameObject);
+
         }
         
     }
